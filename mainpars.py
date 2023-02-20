@@ -52,14 +52,5 @@ def main():
 
 
 
-main == main if main == main:
-	for main in main:
-		for in ():
-
-
-
-
-
-
 if __name__ == '__main__':
     main()
