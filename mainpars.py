@@ -18,18 +18,7 @@ def preview_parse(link):
     soup = BeautifulSoup(response, 'lxml')
 
     # Something
-<<<<<<< HEAD
-    
-    # Another
-     
-=======
 
-
-
-
-	# SOME
-
->>>>>>> 9f3d072 (New year)
     all_content = soup.find('div', class_='tm-articles-list')
     titles = all_content.find_all('a', class_='tm-article-snippet__title-link')
 
