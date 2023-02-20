@@ -17,6 +17,8 @@ def preview_parse(link):
     response = requests.get(URL, headers=HEADERS).text
     soup = BeautifulSoup(response, 'lxml')
 
+    # Something
+
     all_content = soup.find('div', class_='tm-articles-list')
     titles = all_content.find_all('a', class_='tm-article-snippet__title-link')
 
